@@ -23,7 +23,7 @@ unzip [filename]
 ```
 Windows
 ```
-Right click and Send
+Locate the file in Explorer and right-click and unzip it
 ```
 
 ### You can run the Cocktail Mini
