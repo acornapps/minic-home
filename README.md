@@ -31,3 +31,11 @@ Right click and Send
 ```console
 $ minic start
 ```
+
+### commands
+| Command       | Description               |
+| ------------- | ------------------------- |
+| delete        | delete the cocktail-mini  |
+| help          | Help about any command    |
+| open          | open of the cocktail-mini |
+
