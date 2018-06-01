@@ -11,10 +11,20 @@ You need not local virtual machine tools like a virtualbox to run minikube anymo
 
 ## How to use
  
-### Download
+### Downloads
 * [Mac](https://github.com/acornapps/minic/releases/download/v0.3/minic-darwin-amd64.zip)
 * [linux](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
 * [Windows](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
+
+### Unzip
+Mac, linux
+```
+unzip [file]
+```
+Windows
+```
+Right click and Send
+```
 
 ### You can run the Cocktail Mini
 
