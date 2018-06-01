@@ -19,7 +19,7 @@ You need not local virtual machine tools like a virtualbox to run minikube anymo
 ### Unzip
 Mac, linux
 ```
-unzip [filename]
+$ unzip [filename]
 ```
 Windows
 ```
