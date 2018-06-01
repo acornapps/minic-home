@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Minic
 
-You can use the [editor on GitHub](https://github.com/acornapps/minic-home/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+`minic` is a tool of running and managing local minikube cluster on container(Docker in Docker).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You need not local virtual machine tools like a virtualbox to run minikube anymore. Minic use a dind(Docker in docker) container to run minikube cluster, so you only need to install Docker in your PC or laptop on any OS(Windows, MacOS, Linux etc.)
 
-### Markdown
+## Use case
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Testing your container at various version of k8s cluster in local environment
+- Delivering your containerized software package(with k8s cluster) for user experience on their PC
 
-```markdown
-Syntax highlighted code block
+## How to use
+ 
 
-# Header 1
-## Header 2
-### Header 3
+## Building
 
-- Bulleted
-- List
+### Building with go
 
-1. Numbered
-2. List
+- you need go v1.9 or later.
+- if your working copy is not in your `GOPATH`, you need to set it accordingly.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```console
+$ go build -o minic main.go
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You can also use the Makefile directly:
 
-### Jekyll Themes
+```console
+$ make
+or
+$ make install
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/acornapps/minic-home/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### You can run the Cocktail Mini
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```console
+$ minic start
+```
