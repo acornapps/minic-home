@@ -31,14 +31,3 @@ Locate the file in Explorer and right-click and unzip it
 ```console
 $ minic start
 ```
-
-## Commands
-| Command       | Description                        |
-| ------------- | ---------------------------------- |
-| delete        | delete the cocktail-mini           |
-| help          | Help about any command             |
-| open          | open of the cocktail-mini          |
-| start         | start the cocktail-mini            |
-| status        |                                    |
-| stop          | stop the cocktail-mini             |
-| version       | Print the version of cocktail-mini |
