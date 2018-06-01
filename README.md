@@ -11,26 +11,10 @@ You need not local virtual machine tools like a virtualbox to run minikube anymo
 
 ## How to use
  
-
-## Building
-
-### Building with go
-
-- you need go v1.9 or later.
-- if your working copy is not in your `GOPATH`, you need to set it accordingly.
-
-```console
-$ go build -o minic main.go
-```
-
-You can also use the Makefile directly:
-
-```console
-$ make
-or
-$ make install
-```
-
+### Download
+[Mac][https://github.com/acornapps/minic/releases/download/v0.3/minic-darwin-amd64.zip]
+[linux][https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip]
+[Windows][https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip]
 
 ### You can run the Cocktail Mini
 
