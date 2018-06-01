@@ -19,7 +19,7 @@ You need not local virtual machine tools like a virtualbox to run minikube anymo
 ### Unzip
 Mac, linux
 ```
-unzip [file]
+unzip [filename]
 ```
 Windows
 ```
@@ -33,9 +33,12 @@ $ minic start
 ```
 
 ### commands
-| Command       | Description               |
-| ------------- | ------------------------- |
-| delete        | delete the cocktail-mini  |
-| help          | Help about any command    |
-| open          | open of the cocktail-mini |
-
+| Command       | Description                        |
+| ------------- | ---------------------------------- |
+| delete        | delete the cocktail-mini           |
+| help          | Help about any command             |
+| open          | open of the cocktail-mini          |
+| start         | start the cocktail-mini            |
+| status        |                                    |
+| stop          | stop the cocktail-mini             |
+| version       | Print the version of cocktail-mini |
