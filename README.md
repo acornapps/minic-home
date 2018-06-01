@@ -32,7 +32,7 @@ Right click and Send
 $ minic start
 ```
 
-### commands
+## Commands
 | Command       | Description                        |
 | ------------- | ---------------------------------- |
 | delete        | delete the cocktail-mini           |
