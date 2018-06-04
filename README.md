@@ -102,4 +102,4 @@ After you logined, you can see the main dashboard of Cocktail mini.
 
 ![minic status](./assets/images/minic-dashboard.png)
 
-Now you can experience the Cocktail Cloud !. Go to “Getting strated” guide and enjoy.
+Now you can experience the Cocktail Cloud !
