@@ -15,9 +15,6 @@ Minic is available on multiple operating systems.
 * macOS : El Capitan 10.11 and newer macOS releases
 * Windows : Windows 10 Pro, Enterprise and Education (1607 Anniversary Update, Build 14393 or later)
 * CentOS 7
-* Ubuntu : Xenial 16.04 (LTS), Trusty 14.04 (LTS)
-* Debian : Stretch 9 (stable) / Raspbian Stretch, Jessie 8 (LTS) / Raspbian Jessie, Wheezy 7.7 (LTS)
-* Fedora : Version 26, 27  
 
 Minic requires at least 2 cores of CPU and 4 Gbytes of memory. So, your device(PC, notebook etc.) should have more resources then this requirements.
 
@@ -69,7 +66,6 @@ Minic is distributed in zip or tar.gz file that is consists of a single executab
 Download the Minic distribution file from following links, depending your operating system.
 
 * [Darwin/amd64(macOS)](https://github.com/acornapps/minic/releases/download/v0.3/minic-darwin-amd64.zip)
-* [Linux/amd64](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
 * [Windows/amd64](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
 
 After downloading, unzip the downloaded file to your PATH directory.
@@ -94,11 +90,7 @@ Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you
 
 Type “o” to open Cocktail mini and you can see the login screen of Cocktail mini as following.
 
-<<<<<<< HEAD
 <img src="./assets/images/minic-login.png" alt="minic-login" style="width: 300px;"/>
-=======
-<img src="./assets/images/minic-login.png" width="300">
->>>>>>> d2acad3e2cd151c99cfa0a8ffcb301fa61720d48
 
 Only one user is available on The Cocktail mini.
 
