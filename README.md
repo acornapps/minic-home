@@ -45,4 +45,4 @@ Because of this reason, you should configure the Docker’s advanced options of 
 
 Click the whale in the top status bar, and choose “Preferences” menu.
 
-![](./assets/images/Get_started_with_Docker_for_Mac__Docker_Documentation.png)
+![docker for mac](./assets/images/Get_started_with_Docker_for_Mac___Docker_Documentation.png)
