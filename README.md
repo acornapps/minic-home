@@ -86,7 +86,7 @@ At first, the start command download the Cocktail mini container image. It takes
 
 ![minic status](./assets/images/minic-status.png)
 
-Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you should wait untill all containers are run. (At the above image, all pod status will be changed to “Running”)
+Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you should wait untill all containers are run. (As like as the above image, all pod status will be changed to “Running(green)” when to be ready)
 
 Type “o” to open Cocktail mini and you can see the login screen of Cocktail mini as following.
 
