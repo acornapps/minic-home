@@ -54,6 +54,7 @@ On the Advanced tab, you can see the resources available to Docker. Set the CPUs
 **Docker for Windows**
 
 Open the Docker for Windows menu by right-clicking the Docker icon in the Notifications area (or System tray).
+
 ![docker for mac advanced](./assets/images/Get_started_with_Docker_for_Windows___Docker_Documentation.png)
 
 Select Settings... to open the Settings dialog.
