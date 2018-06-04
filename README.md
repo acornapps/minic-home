@@ -84,7 +84,7 @@ To run minic, type the “start” command on your prompt.
 $ minic start
 ```
 
-The `minic start` command takes several steps on processing.
+The `minic start` command has several steps on processing.
 
 At first, the start command download the Cocktail mini container image. It takes one or more minutes, depending your network speed. And then, it runs kubernetes cluster and Cocktail mini. At this time, your prompt is changed to “status mode”.(see following image)
 
@@ -94,7 +94,11 @@ Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you
 
 Type “o” to open Cocktail mini and you can see the login screen of Cocktail mini as following.
 
+<<<<<<< HEAD
 <img src="./assets/images/minic-login.png" alt="minic-login" style="width: 300px;"/>
+=======
+<img src="./assets/images/minic-login.png" width="300">
+>>>>>>> d2acad3e2cd151c99cfa0a8ffcb301fa61720d48
 
 Only one user is available on The Cocktail mini.
 
