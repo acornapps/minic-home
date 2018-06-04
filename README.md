@@ -1,7 +1,5 @@
 # Minic
 
-`#minic`
-
 ## Welcome to Minic!
 
 Minic is a tool that helps you run Cocktail Cloud locally by running a single-node Kubernetes cluster inside a Docker. Actually, Minic runs a single container(called “Cocktail mini container”) that packages Cocktail Cloud and Kubernetes cluster.
@@ -30,10 +28,7 @@ Minic requires at least 2 cores of CPU and 4 Gbytes of memory. So, your device(P
 
 Minic requires Docker to run the Cocktail mini container. Install Docker, depending on your host operating system. Refer to following link.
 
-* [Mac](https://github.com/acornapps/minic/releases/download/v0.3/minic-darwin-amd64.zip)
-* [linux](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
-* [Windows](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
-
+[Docker install](https://docs.docker.com/install/)
 
 In macOS and Windows, Docker is launched on virtual machine that is hosted on your PC
 or notebook. So, all containers(including Cocktail mini container) only use resources that the virtual machine has.
@@ -44,6 +39,8 @@ Because of this reason, you should configure the Docker’s advanced options of 
 **Docker for Mac**
 
 Click the whale in the top status bar, and choose “Preferences” menu.
+
+![docker menubar](.//assets/images/whale-in-menu-bar.png)
 
 ![docker for mac](./assets/images/Get_started_with_Docker_for_Mac___Docker_Documentation.png)
 
@@ -71,9 +68,9 @@ Minic is distributed in zip or tar.gz file that is consists of a single executab
 
 Download the Minic distribution file from following links, depending your operating system.
 
-* Darwin/amd64(macOS)
-* Linux/amd64
-* Windows/amd64
+* [Darwin/amd64(macOS)](https://github.com/acornapps/minic/releases/download/v0.3/minic-darwin-amd64.zip)
+* [Linux/amd64](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
+* [Windows/amd64](https://github.com/acornapps/minic/releases/download/v0.3/minic-windows-amd64.zip)
 
 After downloading, unzip the downloaded file to your PATH directory.
 
@@ -91,9 +88,13 @@ The `minic start` command takes several steps on processing.
 
 At first, the start command download the Cocktail mini container image. It takes one or more minutes, depending your network speed. And then, it runs kubernetes cluster and Cocktail mini. At this time, your prompt is changed to “status mode”.(see following image)
 
+![minic status](./assets/images/minic-status.png)
+
 Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you should wait untill all containers are run. (At the above image, all pod status will be changed to “Running”)
 
 Type “o” to open Cocktail mini and you can see the login screen of Cocktail mini as following.
+
+![minic status](./assets/images/minic-login.png)
 
 Only one user is available on The Cocktail mini.
 
@@ -102,5 +103,7 @@ Only one user is available on The Cocktail mini.
 * Password : admin0000
 
 After you logined, you can see the main dashboard of Cocktail mini.
+
+![minic status](./assets/images/minic-dashboard.png)
 
 Now you can experience the Cocktail Cloud !. Go to “Getting strated” guide and enjoy.
