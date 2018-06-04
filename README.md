@@ -46,3 +46,60 @@ Because of this reason, you should configure the Docker’s advanced options of 
 Click the whale in the top status bar, and choose “Preferences” menu.
 
 ![docker for mac](./assets/images/Get_started_with_Docker_for_Mac___Docker_Documentation.png)
+
+On the Advanced tab, you can see the resources available to Docker. Set the CPUs value to 2 cores and the Memory value to 4.0 GiB as follows.
+
+![docker for mac advanced](./assets/images/Advanced.png)
+
+**Docker for Windows**
+
+Open the Docker for Windows menu by right-clicking the Docker icon in the Notifications area (or System tray).
+![docker for mac advanced](./assets/images/Get_started_with_Docker_for_Windows___Docker_Documentation.png)
+
+Select Settings... to open the Settings dialog.
+
+![docker for mac advanced](./assets/images/Get_started_with_Docker_for_Windows___Docker_Documentation2.png)
+
+On the Advanced tab, you can see the resources available to Docker. Set the CPUs value to 2 cores and the Memory value to 4096 MB. The Linux VM restarts after changing the settings on the Advanced tab. This takes a few seconds.
+
+![docker for mac advanced](./assets/images/Get_started_with_Docker_for_Windows___Docker_Documentation3.png)
+
+### 4. Download and install Minic
+
+Minic is distributed in zip or tar.gz file that is consists of a single executable file.
+
+Download the Minic distribution file from following links, depending your operating system.
+
+* Darwin/amd64(macOS)
+* Linux/amd64
+* Windows/amd64
+
+After downloading, unzip the downloaded file to your PATH directory.
+
+Now, you ready to run Minic.
+
+**Running Minic**
+
+To run minic, type the “start” command on your prompt.
+
+```
+$ minic start
+```
+
+The `minic start` command takes several steps on processing.
+
+At first, the start command download the Cocktail mini container image. It takes one or more minutes, depending your network speed. And then, it runs kubernetes cluster and Cocktail mini. At this time, your prompt is changed to “status mode”.(see following image)
+
+Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you should wait untill all containers are run. (At the above image, all pod status will be changed to “Running”)
+
+Type “o” to open Cocktail mini and you can see the login screen of Cocktail mini as following.
+
+Only one user is available on The Cocktail mini.
+
+* Role : Admin
+* Id : admin@acornsoft.io
+* Password : admin0000
+
+After you logined, you can see the main dashboard of Cocktail mini.
+
+Now you can experience the Cocktail Cloud !. Go to “Getting strated” guide and enjoy.
