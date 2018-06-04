@@ -14,7 +14,6 @@ Minic is available on multiple operating systems.
 
 * macOS : El Capitan 10.11 and newer macOS releases
 * Windows : Windows 10 Pro, Enterprise and Education (1607 Anniversary Update, Build 14393 or later)
-* CentOS 7
 
 Minic requires at least 2 cores of CPU and 4 Gbytes of memory. So, your device(PC, notebook etc.) should have more resources then this requirements.
 
