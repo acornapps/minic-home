@@ -94,7 +94,7 @@ Cocktail mini is consist of containers(pods) that are run on kubernetes. So, you
 
 Type “o” to open Cocktail mini and you can see the login screen of Cocktail mini as following.
 
-<img src="./assets/images/minic-login.png" alt="minic-login" style="width: 300px;"/>
+<img src="./assets/images/minic-login.png" width="300"></img>
 
 Only one user is available on The Cocktail mini.
 
