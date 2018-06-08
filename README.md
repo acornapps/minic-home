@@ -14,6 +14,7 @@ Minic is available on multiple operating systems.
 
 * macOS : El Capitan 10.11 and newer macOS releases
 * Windows : Windows 10 Pro, Enterprise and Education (1607 Anniversary Update, Build 14393 or later)
+* Ubuntu : Xenial 16.04(LTS) and newer
 
 Minic requires at least 2 cores of CPU and 4 Gbytes of memory. So, your device(PC, notebook etc.) should have more resources then this requirements.
 
@@ -64,8 +65,9 @@ Minic is distributed in zip or tar.gz file that is consists of a single executab
 
 Download the Minic distribution file from following links, depending your operating system.
 
-* [Darwin/amd64(macOS)](https://github.com/acornapps/minic-home/releases/download/v0.3/minic-darwin-amd64.zip)
-* [Windows/amd64](https://github.com/acornapps/minic-home/releases/download/v0.3/minic-windows-amd64.zip)
+* [Darwin/amd64(macOS)](https://github.com/acornapps/minic/releases/download/v0.4/minic-darwin-amd64.zip)
+* [Windows/amd64](https://github.com/acornapps/minic/releases/download/v0.4/minic-windows-amd64.zip)
+* [Linux/amd64](https://github.com/acornapps/minic/releases/download/v0.4/minic-linux-amd64.zip)
 
 After downloading, unzip the downloaded file to your PATH directory.
 
