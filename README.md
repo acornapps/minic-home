@@ -1,8 +1,7 @@
-# Minic
+# Welcome to Cocktail Mini!
 
-## Welcome to Minic!
-
-Minic is a tool that helps you run Cocktail Cloud locally by running a single-node Kubernetes cluster inside a Docker. Actually, Minic runs a single container(called “Cocktail mini container”) that packages Cocktail Cloud and Kubernetes cluster.
+Cocktail Mini is a trial version of Cocktail Cloud.
+And Minic is a tool that helps you run Cocktail Mini locally by running a single-node Kubernetes cluster inside a Docker. Actually, Minic runs a single container(called “Cocktail mini container”) that packages Cocktail Cloud and Kubernetes cluster.
 
 This documentation contains the sections to help you get started with Cocktail Mini.
 
