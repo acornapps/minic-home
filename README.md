@@ -5,7 +5,7 @@ And Minic is a tool that helps you run Cocktail Mini locally by running a single
 
 This documentation contains the sections to help you get started with Cocktail Mini.
 
-## Installing Cocktail Mini - Minic
+## Installing Cocktail Mini(Minic)
 
 ### 1. System requirements
 
