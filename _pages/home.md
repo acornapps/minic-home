@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  overlay_image: /assets/images/bgcolor.jpg
+  overlay_image: /assets/images/cocktailmini_bg.jpg
   # cta_label: "<i class='fas fa-download'></i> Install Now"
   # cta_url: "/docs/quick-start-guide/"
   caption:
