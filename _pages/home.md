@@ -1,11 +1,12 @@
 ---
-title: '{::nomarkdown}<img src="/assets/images/cocktailmini.png">{:/nomarkdown}'
+#title: '{::nomarkdown}<div style="height: 200px;"></div>{:/nomarkdown}'
+title: 'Cocktail Mini'
 layout: splash
 permalink: /
 header:
   overlay_image: /assets/images/cocktailmini_bg.jpg
-  # cta_label: "<i class='fas fa-download'></i> Install Now"
-  # cta_url: "/docs/quick-start-guide/"
+  #cta_label: "<i class='fas fa-download'></i> Install Now"
+  #cta_url: "/docs/quick-start-guide/"
   caption:
 excerpt: 'Experience the Cocktail Cloud'
 feature_row:
