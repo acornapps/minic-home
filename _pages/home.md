@@ -1,4 +1,5 @@
 ---
+title: '{::nomarkdown}<img src="/assets/images/cocktailmini.png">{:/nomarkdown}'
 layout: splash
 permalink: /
 header:
