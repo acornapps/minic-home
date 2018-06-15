@@ -1,6 +1,6 @@
 ---
 #title: '{::nomarkdown}<div style="height: 200px;"></div>{:/nomarkdown}'
-title: 'Cocktail Mini'
+#title: 'Cocktail Mini'
 layout: splash
 permalink: /
 header:
