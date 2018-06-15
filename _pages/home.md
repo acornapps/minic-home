@@ -3,12 +3,12 @@
 title: 'Cocktail Mini'
 layout: splash
 permalink: /
-header:
-  overlay_image: /assets/images/cocktailmini_bg.jpg
+#header:
+#  overlay_image: /assets/images/cocktailmini_bg.jpg
   #cta_label: "<i class='fas fa-download'></i> Install Now"
   #cta_url: "/docs/quick-start-guide/"
-  caption:
-excerpt: 'Experience the Cocktail Cloud'
+#  caption:
+#excerpt: 'Experience the Cocktail Cloud'
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "Installing"
