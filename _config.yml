@@ -15,7 +15,7 @@ title                    : "Cocktail Mini"
 title_separator          : "-"
 name                     : &name "Acornsoft" # &name is a YAML anchor which can be *referenced later
 description              : &description "Experience the Cocktail Cloud"
-url                      : https://minic.run # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://minic.run # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "acornsoft/minic-home"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
