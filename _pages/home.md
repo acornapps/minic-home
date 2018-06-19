@@ -10,21 +10,21 @@ header:
   caption:
 excerpt: 'Experience the Cocktail Cloud'
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/mini_icon01.png
     alt: "Installing"
     title: "Installing Cocktail Mini"
     excerpt: "This guide contains how to install and run Cocktail Mini."
     url: "/docs/installing-cocktail-mini/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/mini_icon02.png
     alt: "Hello Cocktail"
     title: "Hello Cocktail"
     excerpt: "This document contains a brief demo of deploying container to Cocktail Cloud. The flollowing steps describe how to get started."
     url: "/docs/getting-started-for-minic/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/mini_icon03.png
     alt: "Pipeline"
     title: "Getting started with Pipeline"
     excerpt: "This document contains a brief demo of the Cocktail Cloud Pipeline features. The following steps describe how to that."

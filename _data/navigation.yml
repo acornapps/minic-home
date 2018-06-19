@@ -22,8 +22,8 @@
 main:
   - title: "Quick-Start Guide"
     url: /docs/installing-cocktail-mini/
-  # - title: "About"
-  #   url: /about/
+  - title: "Cocktail Cloud"
+    url: http://www.cocktailcloud.io/
   # - title: "Contact Us"
   #   url: /year-archive/
 
