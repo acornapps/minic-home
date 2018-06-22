@@ -69,9 +69,9 @@ Minic is distributed in zip or tar.gz file that is consists of a single executab
 
 Download the Minic distribution file from following links, depending your operating system.
 
-* [Darwin/amd64(macOS)](https://github.com/acornapps/minic-home/releases/download/v0.4/minic-darwin-amd64.zip)
-* [Windows/amd64](https://github.com/acornapps/minic-home/releases/download/v0.4/minic-windows-amd64.zip)
-* [Linux/amd64](https://github.com/acornapps/minic-home/releases/download/v0.4/minic-linux-amd64.zip)
+* [Darwin/amd64(macOS)](https://github.com/acornapps/minic-home/releases/download/v0.5/minic-darwin-amd64.zip)
+* [Windows/amd64](https://github.com/acornapps/minic-home/releases/download/v0.5/minic-windows-amd64.zip)
+* [Linux/amd64](https://github.com/acornapps/minic-home/releases/download/v0.5/minic-linux-amd64.zip)
 
 After downloading, unzip the downloaded file to your PATH directory.
 
