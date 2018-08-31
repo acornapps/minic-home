@@ -31,6 +31,8 @@ Minic requires Docker to run the Cocktail Mini container. Install Docker, depend
 
 [Docker install](https://docs.docker.com/install/)
 
+* Recommended Docker Version: 18.05 and 18.06
+
 In macOS and Windows, Docker is launched on virtual machine that is hosted on your PC
 or notebook. So, all containers(including Cocktail Mini container) only use resources that the virtual machine has.
 Because of this reason, you should configure the Docker’s advanced options of resources for running Minic.
@@ -62,6 +64,10 @@ Select Settings... to open the Settings dialog.
 On the Advanced tab, you can see the resources available to Docker. Set the CPUs value to 2 cores and the Memory value to 4096 MB. The Linux VM restarts after changing the settings on the Advanced tab. This takes a few seconds.
 
 ![docker for mac advanced3]({{ "/assets/images/windows-docker-documentation3.png" | relative_url }})
+
+If your docker is configured as a Windows containers, you must switch it to a Linux containers
+
+![docker for mac advanced4]({{ "/assets/images/switch_linux_container.png" | relative_url }})
 
 ## Download and install Minic
 
